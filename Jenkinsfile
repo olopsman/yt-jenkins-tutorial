@@ -6,5 +6,11 @@ pipeline {
                 bat 'ant -version'
             }
         }
+        stage('test') {
+            
+        }
+        stage('deploy'){
+        
+        }
     }
 }
