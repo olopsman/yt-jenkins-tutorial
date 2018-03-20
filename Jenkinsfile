@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                cmd 'ant- version'
+                bat 'ant- version'
             }
         }
     }
