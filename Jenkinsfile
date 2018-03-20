@@ -7,10 +7,14 @@ pipeline {
             }
         }
         stage('test') {
-            
+             steps {
+                bat 'java -version'
+            }            
         }
         stage('deploy'){
-        
+            steps {
+                bat 'node -v'
+            }        
         }
     }
 }
